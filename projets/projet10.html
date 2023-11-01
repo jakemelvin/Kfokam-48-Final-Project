@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Création d'onglets</title>
+    <link rel="stylesheet" href="styles/projet10.css" />
+  </head>
+
+  <body>
+    <div class="tabs">
+      <button onclick="openOnglet(event,'Home')" class="tablinks">Home</button>
+      <button onclick="openOnglet(event,'Contact')" class="tablinks">
+        Contact
+      </button>
+      <button onclick="openOnglet(event,'Reservation')" class="tablinks">
+        Reservation
+      </button>
+      <button onclick="openOnglet(event,'Boutique')" class="tablinks">
+        Boutique
+      </button>
+    </div>
+    <div class="tabcontent" id="Home">
+      <h1>Home</h1>
+      <p>Bienvenue sur la page Home</p>
+      <div class="picture">
+        <img src="../assets/img1.jpg" alt="Images de cerises" />
+      </div>
+    </div>
+    <div class="tabcontent" id="Contact">
+      <h2>Contact</h2>
+      <p>Bienvenue sur la page Contact</p>
+      <div class="picture">
+        <img src="../assets/img2.jpg" alt="Images de pomme rouges" />
+      </div>
+    </div>
+    <div class="tabcontent" id="Reservation">
+      <h2>Reservation</h2>
+      <p>Bienvenue sur la page Reservation</p>
+      <div class="picture">
+        <img src="../assets/img3.jpg" alt="Images de pommes vertes" />
+      </div>
+    </div>
+    <div class="tabcontent" id="Boutique">
+      <h2>Boutique</h2>
+      <p>Bienvenue sur la page Boutique</p>
+      <div class="picture">
+        <img src="../assets/img4.jpg" alt="Une salade de fruits" />
+      </div>
+    </div>
+    <script src="scripts/projet10.js"></script>
+  </body>
+</html>

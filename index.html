@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake Melvin - Final Dock Project</title>
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/25026cd0b8.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <section class="app__aside_menu">
+      <div class="logo-aside" onclick="returnHome()">
+        <img src="assets/logo.png" alt="Logo KFOKAM 48" />
+      </div>
+
+      <div class="app__aside_menu_elements">
+        <ul>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet1.html')"
+            id="projets/projet1.html"
+          >
+            <i class="fa-solid fa-stopwatch-20"></i>
+            <p>Chronomètre</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet2.html')"
+            id="projets/projet2.html"
+          >
+            <i class="fa-solid fa-clipboard-list"></i>
+            <p>To-Do List</p>
+          </li>
+
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet3.html')"
+            id="projets/projet3.html"
+          >
+            <i class="fa-solid fa-person-running"></i>
+            <p>Jeu de saut</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet4.html')"
+            id="projets/projet4.html"
+          >
+            <i class="fa-solid fa-hand-back-fist"></i>
+            <p>Pierre-Papier-Ciseaux</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet5.html')"
+            id="projets/projet5.html"
+          >
+            <i class="fa-solid fa-key"></i>
+            <p>Vérificateur de mot de passe</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet6.html')"
+            id="projets/projet6.html"
+          >
+            <i class="fa-solid fa-brain"></i>
+            <p>Jeu de Calcul</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet7.html')"
+            id="projets/projet7.html"
+          >
+            <i class="fa-solid fa-barcode"></i>
+            <p>Générateur de code barre</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet8.html')"
+            id="projets/projet8.html"
+          >
+            <i class="fa-solid fa-lock"></i>
+            <p>Générateur de mot de passe</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet9.html')"
+            id="projets/projet9.html"
+          >
+            <i class="fa-solid fa-arrow-up-short-wide"></i>
+            <p>Raccourcisseur de lien</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet10.html')"
+            id="projets/projet10.html"
+          >
+            <i class="fa-solid fa-table-columns"></i>
+            <p>Création d'onglets</p>
+          </li>
+          <li
+            class="tab-links"
+            onclick="openProjects(event,'projets/projet11.html')"
+            id="projets/projet11.html"
+          >
+            <i class="fa-solid fa-calculator"></i>
+            <p>Calculatrice</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="app__header">
+      <h1>Projet Final | Dock</h1>
+      <div class="app__header-menu-profile">
+        <p>TIOKOU Jake Melvin</p>
+        <div class="app__header-menu-profile_image">
+          <img src="assets/profile.png" alt="Image de profile" />
+        </div>
+        <div class="app__header-smallscreen">
+          <i
+            class="fa-solid fa-bars"
+            id="hamburger-menu"
+            onclick="openMenu()"
+          ></i>
+          <i
+            class="fa-solid fa-circle-xmark"
+            id="close-menu"
+            onclick="closeMenu()"
+          ></i>
+          <div class="app__header-smallscreen-links-container">
+            <div class="logo-aside" onclick="returnHome()">
+              <img src="assets/logo.png" alt="Logo KFOKAM 48" />
+            </div>
+            <ul class="app__header-smallscreen-links">
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet1.html')"
+                id="projets/projet1.html"
+              >
+                <i class="fa-solid fa-stopwatch-20"></i>
+                Chronomètre
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet2.html')"
+                id="projets/projet2.html"
+              >
+                <i class="fa-solid fa-clipboard-list"></i>
+                To-Do List
+              </li>
+
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet3.html')"
+                id="projets/projet3.html"
+              >
+                <i class="fa-solid fa-person-running"></i>
+                Jeu de saut
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet4.html')"
+                id="projets/projet4.html"
+              >
+                <i class="fa-solid fa-hand-back-fist"></i>
+                Pierre-Papier-Ciseaux
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet5.html')"
+                id="projets/projet5.html"
+              >
+                <i class="fa-solid fa-key"></i>
+                Vérificateur de mot de passe
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet6.html')"
+                id="projets/projet6.html"
+              >
+                <i class="fa-solid fa-brain"></i>
+                Jeu de Calcul
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet7.html')"
+                id="projets/projet7.html"
+              >
+                <i class="fa-solid fa-barcode"></i>
+                Générateur de code barre
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet8.html')"
+                id="projets/projet8.html"
+              >
+                <i class="fa-solid fa-lock"></i>
+                Générateur de mot de passe
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet9.html')"
+                id="projets/projet9.html"
+              >
+                <i class="fa-solid fa-arrow-up-short-wide"></i>
+                Raccourcisseur de lien
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet10.html')"
+                id="projets/projet10.html"
+              >
+                <i class="fa-solid fa-table-columns"></i>
+                Création d'onglets
+              </li>
+              <li
+                class="tab-links"
+                onclick="openProjects(event,'projets/projet11.html')"
+                id="projets/projet11.html"
+              >
+                <i class="fa-solid fa-calculator"></i>
+                Calculatrice
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <p class="titre-section">Dashboard</p>
+    <section class="app__body">
+      <div class="app__body-profile">
+        <div class="app__body-profile-cont-img">
+          <img src="assets/profile.png" alt="Image Profile Body" />
+        </div>
+        <h1>TIOKOU Jake Melvin</h1>
+      </div>
+      <div class="app__body-infos">
+        <h1>Informations</h1>
+        <div class="app__body-infos-title">
+          <h2>Nom Complet:</h2>
+          <p>TIOKOU Jake Melvin</p>
+        </div>
+        <div class="app__body-infos-title">
+          <h2>Email:</h2>
+          <p>tmelvinjake@gmail.com</p>
+        </div>
+        <div class="app__body-infos-title">
+          <h2>Téléphone:</h2>
+          <p>+237 655 78 05 17</p>
+        </div>
+        <div class="app__body-infos-title">
+          <h2>Adresse:</h2>
+          <p>Yaoundé, Cameroun</p>
+        </div>
+      </div>
+
+      <iframe class="app__body-features" src=""></iframe>
+    </section>
+    <section class="app__footer">
+      <p>2023 © KFOKAM48 - TIOKOU Jake Melvin</p>
+    </section>
+    <script src="index.js"></script>
+  </body>
+</html>

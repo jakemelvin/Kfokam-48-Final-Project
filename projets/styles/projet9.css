@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:wght@100;300;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono', monospace;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #7f99df;
+    color: #fff;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+section {
+    height: calc(100vh - 150px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    text-align: center;
+}
+
+.error_message {
+    color: rgb(226, 30, 30);
+    padding: 15px;
+}
+
+input,
+button {
+    margin: 10px 0;
+    padding: 15px;
+    text-align: center;
+    border-radius: 6px;
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+
+input {
+    background-color: #dfdef4;
+}
+
+button {
+    background-color: #255fe5;
+    color: #fff;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+.result {
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 6px;
+    font-size: 13px;
+    display: none;
+    border: 1px solid #255fe5;
+    color: #255fe5;
+}

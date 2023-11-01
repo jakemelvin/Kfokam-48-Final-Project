@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake Melvin - Final Dock Project</title>
+    <link rel="stylesheet" href="styles/projet5.css" />
+  </head>
+  <body>
+      <div class="container">
+        <form action="">
+          <label for="name">Utilisateur</label>
+          <input type="text" id="name" required />
+          <label for="psw">Mot de passe</label>
+          <input type="password" id="psw" required />
+          <input type="submit" value="Envoyé" />
+        </form>
+      </div>
+      <div id="message">
+        <h1>Le mot de passe doit contenir les éléments suivants</h1>
+        <p class="invalid" id="letter">Une lettre minuscule</p>
+        <p class="invalid" id="capital">Une lettre majuscule</p>
+        <p class="invalid" id="number">Un chiffre</p>
+        <p class="invalid" id="length">8 Caractères Minimum</p>
+      </div>
+    <script src="scripts/projet5.js"></script>
+  </body>
+</html>

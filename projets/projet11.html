@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake Melvin - Final Dock Project</title>
+    <link rel="stylesheet" href="styles/projet11.css" />
+  </head>
+  <body>
+  
+      <main>
+        <div class="body">
+          <div id="display">
+            <div class="resultat-afficheur">
+            </div>
+            <div class="calcul-afficheur">
+            </div>
+          </div>
+          <div class="conteneur-machine">
+            <div class="machine-calcul">
+              <button class="buttons" id="clear" onClick='clearScreen()''>AC</button>
+              <button onclick='chooseOperation("/")' class="buttons" id="divide">/</button>
+              <button onclick='chooseOperation("x")' class="buttons" id="multiply">x</button>
+              <button class="buttons" id="seven" onclick='addingDigit("7")'>7</button>
+              <button class="buttons" id="eight" onclick='addingDigit("8")'>8</button>
+              <button class="buttons" id="nine" onclick='addingDigit("9")'>9</button>
+              <button onclick='chooseOperation("-")' class="buttons" id="subtract">-</button>
+              <button class="buttons" id="four" onclick='addingDigit("4")'>4</button>
+              <button class="buttons" id="five" onclick='addingDigit("5")'>5</button>
+              <button class="buttons" id="six" onclick='addingDigit("6")'>6</button>
+              <button onclick='chooseOperation("+")' class="buttons" id="add">+</button>
+              <button class="buttons" id="one" onclick='addingDigit("1")'>1</button>
+              <button class="buttons" id="two" onclick='addingDigit("2")'>2</button>
+              <button class="buttons" id="three" onclick='addingDigit("3")'>3</button>
+              <button id="equals" onclick="equal()">=</button>
+              <button class="buttons" id="zero" onclick='addingDigit("0")'>0</button>
+              <button class="buttons" id="decimal" onclick='addingDigit(".")'>.</button>
+            </div>
+          </div>
+        </div>
+      </main>
+    <script src="scripts/projet11.js"></script>
+  </body>
+</html>

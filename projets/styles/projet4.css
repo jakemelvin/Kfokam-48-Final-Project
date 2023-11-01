@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app__body-conteneur-jeu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 400px;
+  padding: 25px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+}
+
+.choix {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.choix p {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: #999;
+}
+
+.app__body-conteneur-jeu p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.app__body-conteneur-jeu img {
+  width: 60px;
+  height: 60px;
+  margin: 20px 0;
+}
+
+.app__body-conteneur-jeu button {
+  padding: 5px 30px;
+  margin-top: 20px;
+  border: 1px solid #5372f0;
+  background-color: #5372f0;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.5s;
+}
+
+.app__body-conteneur-jeu button:focus {
+  background-color: #fff;
+  color: #5372f0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5372f0;
+}

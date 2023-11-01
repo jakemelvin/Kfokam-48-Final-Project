@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&family=Roboto:wght@100;300;400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.chronometre {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    text-align: center;
+}
+
+.time {
+    margin: auto;
+    border: 1px solid #999;
+    border-radius: 6px;
+    padding: 5px 0;
+    width: 100%;
+    font-size: 35px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.time span {
+    font-family: 'Dancing Script', cursive;
+    padding: 5px;
+}
+
+.controls {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+button {
+    background-color: #1d9c5e;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px 20px;
+    border-radius: 5px;
+    border: 0;
+    width: 31%;
+    letter-spacing: 1px;
+}
+
+button:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+    cursor: pointer
+}
+
+body{
+    display: grid;
+    place-content: center;
+    background-color: #21B66F;
+    min-height: 100vh;
+}

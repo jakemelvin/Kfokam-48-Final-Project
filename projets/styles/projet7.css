@@ -1,0 +1,91 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  background-color: #675afe;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.app__body section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  flex-direction: column;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.app__body img {
+  width: 250px;
+}
+
+.app__body h1 {
+  font-size: 25px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.search_bar {
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.app__body input {
+  width: 75%;
+  padding: 8px;
+  outline: 0;
+  border: 1px solid #999;
+}
+
+.app__body button {
+  cursor: pointer;
+  padding: 8px;
+  background-color: #675afe;
+  border: 1px solid #675afe;
+  color: #fff;
+  letter-spacing: 1px;
+  transition: 0.5s;
+}
+
+.app__body button:hover {
+  background-color: #2212d9;
+}
+
+#button_code_id {
+  width: 25%;
+}
+
+#box {
+  border: 1px solid #999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+#pdf_box {
+  width: 100%;
+}
+
+#pdf_box button {
+  width: 100%;
+}
+
+.error {
+  text-align: center;
+  font-size: 14px;
+  padding: 8px;
+  width: 100%;
+  background-color: rgb(189, 92, 92);
+  color: #fff;
+}
